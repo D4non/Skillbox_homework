@@ -8,3 +8,5 @@ let cathetus1 = Math.abs(x1 - x2)
 let cathetus2 = Math.abs(y1 - y2)
 
 console.log(cathetus1 * cathetus2)
+
+// Всё верно!
