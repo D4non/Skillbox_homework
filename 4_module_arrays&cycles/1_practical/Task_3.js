@@ -1,12 +1,12 @@
 let count = 7
-array = []
+let array = []
 for (let i = 0; i < count; i++){
     array[i] = i + 1
 }
 
 for (let i = 0; i < count; i++){
-    j = Math.round(Math.random() * (count-1))
-    temp = array[i]
+    let j = Math.round(Math.random() * (count-1))
+    let temp = array[i]
     array[i] = array[j]
     array[j] = temp
 }

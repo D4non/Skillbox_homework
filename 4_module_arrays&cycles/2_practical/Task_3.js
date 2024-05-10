@@ -1,6 +1,6 @@
 let roadMines = [false, true, false, false, false, true, false, false, false, true]
 
-mines = 0
+let mines = 0
 
 for (let i = 0; i < roadMines.length; i++){
     mines = roadMines[i] == true ? mines+=1 : mines
